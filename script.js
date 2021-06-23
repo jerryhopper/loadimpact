@@ -5,3 +5,4 @@ export default function () {
   http.get('http://bidentify.jerryhopper.com');
   sleep(1);
 }
+
