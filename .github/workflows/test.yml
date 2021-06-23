@@ -40,7 +40,7 @@ jobs:
       - name: Docker?
         shell: bash
         run: |
-          docker run -i loadimpact/k6 run --vus 10 --duration 30s - <script.js
+          docker run -i loadimpact/k6 run --vus 10 --duration 60s - <script.js
           
 
 
